@@ -10,7 +10,7 @@ crime_data = pd.read_csv('crime_data.csv')
 print(crime_data.head())
 
 # Total crimes by region
-region_crime = crime_data.groupby('Region')['Number_of_Cases'].sum()
+region_crime = crime_data.groupby('Region')['Number_of_Cases'].sum().
 
 # Bar graph
 plt.figure(figsize=(10,5))
